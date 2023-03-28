@@ -30,6 +30,11 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    color: #FFFFFF;
+}
+
+.border{
+    background-color: #B8277B;
 }
 
 
@@ -81,7 +86,9 @@ h6,
     border-radius: 50px;
 }
 
-
+.title{
+    color: var(--primary);
+}
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
     position: relative;
@@ -199,18 +206,13 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     background:
-        url(../img/bg-dot.png),
-        url(../img/bg-dot.png),
-        /* url(../img/bg-round.png), */
-        url(../img/bg-tree.png),
-        /* url(../img/hero_banner.png), */
-        url(../img/bg-bottom-hero.png);
+        url(../img/bg-bottom-hero.png),
+        url(../img/hero_banner.png);
+
     background-position:
-        10px 10px,
-        bottom 190px right 10px,
-        left 55% top -1px,
-        left 45% bottom -1px,
-        center bottom -1px;
+        center bottom -1px,
+        center ;
+    background-size: auto, cover;
     background-repeat: no-repeat;
     background-color: var(--ai);
 }
@@ -255,7 +257,7 @@ h6,
     height: 10px;
     top: 2px;
     left: 0;
-    background: rgba(33, 66, 177, .5);
+    background: #ce1982;
 }
 
 .section-title h6::after {
@@ -339,13 +341,17 @@ h6,
 /*** Testimonial ***/
 .newsletter,
 .testimonial {
+    
     background:
-        url(../img/bg-top.png),
-        url(../img/bg-bottom.png);
+        url(../img/bg-top.png)no-repeat,
+        url(../img/bg-bottom.png)no-repeat;
+        
     background-position:
         left top,
         right bottom;
-    background-repeat: no-repeat;
+    background-color: #B8277B!important;
+  
+    
 }
 
 .testimonial-carousel .owl-item .testimonial-item,
@@ -475,11 +481,16 @@ h6,
 
 /*** Footer ***/
 .footer {
-    background: url(../img/footer.png) center center no-repeat;
-    background:url(../img/footer_2.png)right no-repeat;
-    background-size:contain;
-    
+   background:url(../img/footer_new.png)right no-repeat;
+    background-size: contain; 
 }
+
+.footer_2{
+    
+    background-size:cover;
+}
+
+
 
 .footer .btn.btn-social {
     margin-right: 5px;
@@ -527,7 +538,11 @@ h6,
 .footer .btn.link2:hover {
     letter-spacing: 1px;
     box-shadow: none;
-    color: red;
+    
+}
+
+.footer .btn.link2{
+    color:red;
 }
 
 .footer .copyright {
@@ -551,3 +566,27 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.begin{
+    width: 65%;
+    
+}
+
+
+.dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    
+    }
