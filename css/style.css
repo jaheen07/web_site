@@ -38,6 +38,12 @@
     color: white;
 }
 
+.border2:hover{
+    background-color: #FFFFFF;
+    color: #B8277B;
+    border: 10px solid #B8277B;
+}
+
 .tik{
     color: #B8277B;
 }
@@ -62,6 +68,18 @@ h6,
 .btn {
     font-weight: 500;
     transition: .5s;
+}
+
+
+
+.btn-outline{
+    color:#B8277B;
+    border: 2px solid #B8277B;
+}
+
+.btn-outline:hover{
+    background-color: #B8277B;
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -112,7 +130,7 @@ h6,
 .get_start:hover{
     background-color: #FFFFFF;
     border: 2px solid #B8277B;
-    text_color: #B8277B;
+    color: #B8277B;
 
 }
 .sticky-top.navar-light .navbar-nav .nav-link {
@@ -359,14 +377,14 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
-    background: url(../img/icon-shape-primary.png) center center no-repeat;
+    color: var(--dark);
+    
     transition: .5s;
 }
 
 .service-item:hover .service-icon {
     color: var(--primary);
-    background: url(../img/icon-shape-white.png);
+    
 }
 
 .service-item h5,
@@ -646,5 +664,27 @@ h6,
 .begin:hover{
     background-color: #DDDDDD;
 }
+
+.services{
+    margin-bottom:34px;
+}
+
+.container2{
+    padding: 3%;
+}
+
+.container3{
+    background: url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.card:hover> .brdr{
+    border: 2px solid #B8277B;
+    border-radius: 2%;
+    box-shadow: 10px;
+}
+
 
 
