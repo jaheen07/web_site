@@ -35,8 +35,12 @@
 
 .border{
     background-color: #B8277B;
+    color: white;
 }
 
+.tik{
+    color: #B8277B;
+}
 
 /*** Heading ***/
 h1,
@@ -118,7 +122,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -624,7 +628,10 @@ h6,
 
 .begin{
     width: 65%;
-    
+}
+
+.begin:hover{
+    background-color: #DDDDDD;
 }
 
 
