@@ -156,10 +156,33 @@ h6,
     max-height: 45px;
 }
 
+.handhold{
+    width:86%;
+    
+}
+
+.mvision{
+    height:60%;
+}
+
+@media(max-width:767px){
+    .row .mvision{
+        height:100%;
+    }
+
+    .cc{
+        margin-top:0;
+    }
+}
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
+    }
+
+    .handhold{
+        margin-left:6%!important;
+        margin-top:2%;
     }
 
     .navbar-light .navbar-collapse {
@@ -231,6 +254,9 @@ h6,
 }
 
 @media (min-width: 992px) {
+    .cc{
+        margin-top:0!important;
+    }
     .navbar-light {
         /* position: absolute; */
         width: 100%;
@@ -686,5 +712,12 @@ h6,
     box-shadow: 10px;
 }
 
+.container4{
+    background: url('../img/bg.jpg')center no-repeat;
+    background-size:cover;
+}
 
-
+input.form-control:focus{
+    outline:0;
+    border: 0;
+}
