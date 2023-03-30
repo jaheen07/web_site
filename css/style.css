@@ -388,28 +388,51 @@ h6,
 /*** Service ***/
 
 .tool_name{
+    
+    position: relative;
+    top: -19%;
+   display: flex;
     border-radius: 2rem 2rem 0rem 0rem;
-    padding: 8%;
+    padding: 3%;
     background: #000;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
 .service-item {
     position: relative;
     height: 350px;
     padding: 30px 25px;
-    background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    transition: .5s;
-
+    transition: .5s; 
+    
 }
 
-.service-item:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
-    background: linear-gradient(180deg,rgba(0, 0, 0)8%,rgba(0,0,0,0)20%);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.service-item:hover{
+    background: var(--primary);
 }
+.round{
+    justify-self: end;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    
+    
+}
+.service-item2 {
+    position: relative;
+    height: 350px;
+    padding: 30px 25px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s; 
+    
+}
+.service-item2:hover{
+
+    background: linear-gradient(180deg,rgba(0, 0, 0)2%,rgba(255,255,255)40%);
+     background-size: 100%,100%;
+   
+}
+
 
 .service-item .service-icon {
     margin: 0 auto 20px auto;
@@ -424,6 +447,10 @@ h6,
 }
 
 .service-item:hover .service-icon {
+    color: var(--primary);
+    
+}
+.service-item:hover{
     color: var(--primary);
     
 }
@@ -818,14 +845,14 @@ input.form-control:focus{
   
   .container {
     margin-top: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   /* Style the buttons */
   .btn2 {
     border: 2px solid #B8277B;
     outline: none;
-    padding: 12px 16px;
+    padding: 6px 12px;
     background-color: #fffbfb;
     border-radius: 2rem;
     cursor: pointer;
