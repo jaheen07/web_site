@@ -386,6 +386,14 @@ h6,
 
 
 /*** Service ***/
+
+.tool_name{
+    border-radius: 2rem 2rem 0rem 0rem;
+    padding: 8%;
+    background: #000;
+    color: #FFFFFF;
+}
+
 .service-item {
     position: relative;
     height: 350px;
@@ -393,10 +401,14 @@ h6,
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
+
 }
 
 .service-item:hover {
-    background: var(--primary);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background: linear-gradient(180deg,rgba(0, 0, 0)8%,rgba(0,0,0,0)20%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .service-item .service-icon {
