@@ -243,18 +243,57 @@
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 hero-header mb-5">
+            <div class="container-xxl py-5 tool-back mb-5">
                 <div class="container my-5 py-5 px-lg-5">
+                    
+
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h2 class="text-white mb-4 animated zoomIn">Discover the power of Ai and How it's revolutionizing the world as well as <b>Bangladesh</b></h2>
-                            <p class="text-white pb-3 animated zoomIn">Unlock the potential of AI and see how it's shaping the world around us. Join us on a journey of discovery and innovation!</p>
-                            <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Explore your future</a>
-                            <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                            <div class="wrapper">
+                                <!-- <div class="label text-dark">Search your AI</div> -->
+                                <div class="text-center" style="margin-bottom:10%">
+                                    <h2>Experience all the latest Ai tools to make you productive</h2>
+                                </div>
+                                <div class="searchBar" data-bs-toggle="modal" data-bs-target="#influencer_search_bar">
+                                  <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search your desired AI..." value="" />
+                                  <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                                    <svg style="width:35px;height:35px" viewBox="0 0 24 24"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                                    </svg>
+                                  </button>
+                                </div>
+
+                                <div class="modal fade" id="influencer_search_bar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog position modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header title">
+                                        <h1 class="modal-title  fs-5" id="exampleModalLabel">Enter AI details here...</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <div class="input-group flex-nowrap mb-3">
+                                            <input type="text" class="form-control search_name" placeholder="Search Keywords/Influencers names..." aria-label="Username" aria-describedby="addon-wrapping">
+                                          </div> 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger searchbtn" data-bs-dismiss="modal"><b>Search</b></button>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="mt-3 ms-3">
+                                    <h5>popular searches:</h5>
+                                </div>
+                                <div id="myBtnContainer">
+                                    <button class="btn btn2 active">show all</button>
+                                    <button class="btn btn2"> content writing</button>
+                                    <button class="btn btn2"> speech recognize</button>
+                                    <button class="btn btn2"> image editor</button>
+                                    <button class="btn btn2"> promts</button>
+                                    
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <!-- <img class="img-fluid" src="img/hero.png" alt=""> -->
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -280,136 +319,66 @@
         </div>
         <!-- Full Screen Search End -->
 
-
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container px-lg-5">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="section-title position-relative mb-4 pb-2">
-                            <h6 class="position-relative title ps-4">About Us</h6>
-                            <h2 class="mt-2">Welcome to the AI Expert Career</h2>
-                        </div>
-                        <p class="mb-4">Our aims to promote the adoption and awareness of Artificial Intelligence (AI) in Bangladesh. We believe that AI has the potential to revolutionize various industries in Bangladesh, However, there is currently a lack of awareness and knowledge of AI among the general public and businesses in Bangladesh. Our mission is to bridge this gap by providing education, training, and consultancy services related to AI.</p>
-                        <div class="row g-3">
-                            <div class="col-sm-10">
-                                <h6 class="mb-3"><i class="fa fa-check tik me-2"></i>Early identification process</h6>
-                                <h6 class="mb-3"><i class="fa fa-check tik me-2"></i>Awareness create for Smart Technologies</h6>
-                                <h6 class="mb-3"><i class="fa fa-check tik me-2"></i>Training over Ai</h6>
-                                <h6 class="mb-3"><i class="fa fa-check tik me-2"></i>Career opportunities in Ai sector</h6>
-                                <h6 class="mb-3"><i class="fa fa-check tik me-2"></i>Training over Ai</h6>
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex align-items-center mt-4">
-                            <a class="btn get_start rounded-pill px-4 me-3" href="">Read More</a>
-                            <a class="btn btn-outline btn-square btn-social me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                            
-                            <a class="btn btn-outline btn-square btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/dt_1.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
+        
+        
 
 
-        <!-- Newsletter Start -->
-        <div class="container-xxl bg-primary newsletter my-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container px-lg-5">
-                <div class="row align-items-center" style="height: 250px;">
-                    <div class="col-12 col-md-6 mb-3">
-                        <h3 class="text-white">Not sure! where to begin?</h3>
-                        <small class="text-white">you can learn AI from any sector</small>
-                        <div class="position-relative w-100 mt-3">
-                            <a class="btn btn-light begin rounded-pill px-4 me-3" href="">Read More</a>
-                            <!-- <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button> -->
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center mb-n5 d-none d-md-block">
-                        <img class="img-fluid mx-5" width="65%" src="img/begin.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Newsletter End -->
+        
 
 
         <!-- Service Start -->
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
-                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="position-relative d-inline title ps-4">Our Services</h6>
-                    <h2 class="mt-2">What services We Provide</h2>
-                </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
-                                <img src="img/course_icon.png" alt="" width="90%">
+                                <img src="img/copyai.png" alt="" width="300%">
                             </div>
-                            <h5 class="mb-3">Ai Course Material</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                
-                                <img src="img/newsletter_icon.png" alt="" width="90%">
-                                
-                            </div>
-                            <h5 class="mb-3">Ai Newsletter</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <img src="img/projects.png" alt="" width="90%">
-                            </div>
-                            <h5 class="mb-3">Ai projects & products</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
-                                <img src="img/case_study.png" alt="" width="90%">
+                                <img src="img/copyai.png" alt="" width="300%">
                             </div>
-                            <h5 class="mb-3">Ai usecases & case study analysis</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
-                                <img src="img/research.png" alt="" width="95%">
+                                <img src="img/copyai.png" alt="" width="300%">
                             </div>
-                            <h5 class="mb-3">AI field research</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
-                                <img src="img/job_icon.png" alt="" width="90%">
+                                <img src="img/copyai.png" alt="" width="300%">
                             </div>
-                            <h5 class="mb-3">Job opportunities in Ai sectors</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <img src="img/copyai.png" alt="" width="300%">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <img src="img/copyai.png" alt="" width="300%">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -417,7 +386,7 @@
 
 
         <!-- Portfolio Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline title ps-4">Blogs & contents</h6>
@@ -533,62 +502,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Portfolio End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-xxl bg-primary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                        <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                        <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                        <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                        <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+       
 
 
         <!-- Team Start -->
@@ -770,6 +688,18 @@
 
         }
     </script>
+
+    <script>
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn2");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
 </body>
 
 </html>

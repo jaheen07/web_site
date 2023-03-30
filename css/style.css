@@ -319,6 +319,9 @@ h6,
 }
 
 
+
+
+
 /*** Hero Header ***/
 .hero-header {
     background:
@@ -721,3 +724,107 @@ input.form-control:focus{
     outline:0;
     border: 0;
 }
+
+
+.tool-back{
+    
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*search bar */
+
+.wrapper {
+    position: absolute;
+    color: black;
+    top:6%;
+    left: 25%;
+    width: 100%;
+    max-width: 39.25rem;
+    margin: 6rem auto;
+  }
+  
+  .label {
+    font-size: .825rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 120%;
+    height: 2.8rem;
+    background: whhite;
+    outline: none;
+    border: 3px solid #B8277B;
+    border-radius: 2.625rem;
+    padding: 2rem 4.5rem 2rem 2.5rem;
+    font-size: 1.3rem;
+    
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+
+
+/*catagory buttons*/
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btn2 {
+    border: 2px solid #B8277B;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #fffbfb;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  
+  .btn2:hover {
+    background-color: #B8277B;
+    color: #FFFFFF;
+  }
+  
+  .btn2.active {
+    background-color: #B8277B;
+    color: white;
+  }
