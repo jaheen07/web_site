@@ -325,7 +325,6 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     background:
-        url(../img/bg-bottom-hero.png),
         url(../img/hero_banner.png);
 
     background-position:
@@ -388,15 +387,16 @@ h6,
 /*** Service ***/
 
 .tool_name{
-    
+    margin-top: 42px;
+    margin-bottom: -35%;
     position: relative;
-    top: -19%;
-   display: flex;
+    display: flex;
     border-radius: 2rem 2rem 0rem 0rem;
     padding: 3%;
     background: #000;
     color: #FFFFFF;
     transition: 0.5s;
+    z-index: 9999;
 }
 
 .service-item {
@@ -426,13 +426,35 @@ h6,
     transition: .5s; 
     
 }
-.service-item2:hover{
+
+.card-title{
+    color: #FFFFFF;
+}
+
+.card-body{
+    transition: .5s;
+}
+
+.card-body:hover{
+    display: block;
+    background: #000;
+    color: #fff;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.ai_service_card{
+    border-radius: 2rem;
+    padding: 3%;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.ai_service_card:hover{
 
     background: linear-gradient(180deg,rgba(0, 0, 0)2%,rgba(255,255,255)40%);
      background-size: 100%,100%;
    
 }
-
 
 .service-item .service-icon {
     margin: 0 auto 20px auto;
